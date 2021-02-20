@@ -13,8 +13,8 @@ var backgroundImg;
 var background1;
 
 function preload(){
-  polygon_img=loadImage("libraries/grenadio.png");
-  background1 = loadImage("libraries/game-background.jpg");
+  polygon_img=loadImage("grenadio.png");
+  background1 = loadImage("game-background.jpg");
 }
 function setup() {
   createCanvas(900,400);
